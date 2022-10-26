@@ -141,12 +141,12 @@ class UI(AlphaBlend):
         self.win.update()
 
     @classmethod
-    def Scan_AllPuzzle(self):   #印出所有背景
+    def Scan_AllPuzzle(self):   # 匯入所有所有背景
         path = str(self.bge.get())
         self.ImportAllPuzzle(path)
 
     @classmethod
-    def Scan_AllMask(self): #印出所有前景
+    def Scan_AllMask(self): # 匯入所有前景
         path = str(self.fge.get())
         self.ImportAllMask(path)
 
